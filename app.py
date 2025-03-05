@@ -45,7 +45,7 @@ if st.session_state.active_section == 'admin':
             correct_username = st.secrets["ADMIN_USERNAME"]
             correct_password = st.secrets["ADMIN_PASSWORD"]
 
-            if admin_username == "correct_username" and admin_password == "correct_password":
+            if admin_username == correct_username and admin_password == correct_password:
                 st.session_state.admin_logged_in = True
                 st.success("Admin logged in successfully!")
                 st.balloons()
