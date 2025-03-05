@@ -14,25 +14,26 @@ Leaderboard to track top performers
 Real-time score updates
 ## How to Run
 ### Clone the repository:
-bash
+```bash
 Copy
 git clone https://github.com/your-username/Python-Quiz-App.git
-
+```
 ### Navigate to the project directory:
-bash
+```bash
 Copy
 cd Python_Quiz_App
+```
 
 ### Install the required dependencies:
-bash
+```bash
 Copy
 pip install -r requirements.txt
-
+```
 ### Run the Streamlit app:
-bash
+```bash
 Copy
 streamlit run app.py
-
+```
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
