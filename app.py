@@ -2,7 +2,7 @@ import streamlit as st
 from quiz_game import Quiz
 import time
 from dotenv import load_dotenv
-import os
+# import os
 
 # Loading environment variables from .env file
 load_dotenv()
@@ -39,9 +39,11 @@ if st.session_state.active_section == 'admin':
         admin_password = st.text_input("Admin Password", type="password", key="admin_password")
     
         if st.button("Admin Login", key="admin_login"):
-            # Getting admin credentials from environment variables
-            correct_username = os.getenv("ADMIN_USERNAME")
-            correct_password = os.getenv("ADMIN_PASSWORD")
+            # # Getting admin credentials from environment variables
+            # correct_username = os.getenv("ADMIN_USERNAME")
+            # correct_password = os.getenv("ADMIN_PASSWORD")
+            correct_username = st.secrets["ADMIN_USERNAME"]
+            correct_password = st.secrets["ADMIN_PASSWORD"]
 
             if admin_username == "correct_username" and admin_password == "correct_password":
                 st.session_state.admin_logged_in = True
