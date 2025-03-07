@@ -1,5 +1,6 @@
 # Python-Quiz-App
 Python Quiz App with Admin &amp; Leaderboard: A fun and interactive Python quiz application hosted using Streamlit. The app includes features like an admin panel for managing questions, a leaderboard to track top performers, and a user-friendly interface for taking quizzes.
+## Live Demo: https://python-quiz-app-bysk.streamlit.app/
 ## Python Quiz App with Admin & Leaderboard
 ### Overview
 This is a Python quiz application hosted using Streamlit. It allows users to take quizzes, view their scores, and compete on a leaderboard. The app also includes an admin panel for managing quiz questions.
